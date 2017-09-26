@@ -1,11 +1,11 @@
 #include <iostream>
-using namespace std;
 
-#include "HeaderTest.h";
+#include "HeaderTest.h"
 
-int main() {
+int main(void) {
 	A1();
 	B1();
 
+	system("pause");
 	return 0;
 }
