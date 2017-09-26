@@ -111,6 +111,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="HeaderTest.h" />
+    <ClInclude Include="HeaderTest2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HeaderTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
