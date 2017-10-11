@@ -1,0 +1,4 @@
+﻿  CopyConstructors.cpp
+c:\users\dsm2016\source\repos\copyconstructors\copyconstructors\copyconstructors.cpp(40): error C2789: 'NeedConstructor::maxCount': const 한정 형식의 개체를 초기화해야 합니다.
+  c:\users\dsm2016\source\repos\copyconstructors\copyconstructors\copyconstructors.cpp(33): note: 'NeedConstructor::maxCount' 선언을 참조하십시오.
+c:\users\dsm2016\source\repos\copyconstructors\copyconstructors\copyconstructors.cpp(40): error C2530: 'NeedConstructor::ref': 참조를 초기화해야 합니다.
