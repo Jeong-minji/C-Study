@@ -28,7 +28,7 @@ DynamicArray::~DynamicArray()
 int main()
 {
 	int size;
-	cout << "몇 개의 정수 입력: ";
+	cout << "입력할 정수의 개수: ";
 	cin >> size;
 
 	DynamicArray da(size);
