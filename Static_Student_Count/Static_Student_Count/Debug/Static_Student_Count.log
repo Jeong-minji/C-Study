@@ -1,3 +1,4 @@
 ﻿  Static_Student_Count.cpp
-  Static_Student_Count.vcxproj -> C:\Users\dsm2016\C-Study\Static_Student_Count\Debug\Static_Student_Count.exe
-  Static_Student_Count.vcxproj -> C:\Users\dsm2016\C-Study\Static_Student_Count\Debug\Static_Student_Count.pdb (Partial PDB)
+c:\users\jcw\desktop\coding\c-study\static_student_count\static_student_count\static_student_count.cpp(13): error C3861: 'Func': 식별자를 찾을 수 없습니다.
+  Point.cpp
+  코드를 생성하고 있습니다...

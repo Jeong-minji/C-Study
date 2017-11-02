@@ -1,39 +1,6 @@
 #include <iostream>
+#include "Student.h"
 using namespace std;
-
-class Student
-{
-	public:
-		string name;
-		int sNo;
-		Student(const string& name_arg, int stdNumber);
-		~Student();
-
-		public:
-			static int student_count;
-			static void PrintStdCount();
-
-};
-
-int Student::student_count = 0;
-
-void Student::PrintStdCount()
-{
-	cout << "Student °´Ã¼ ¼ö = " << student_count << "\n";
-}
-
-Student::Student(const string& name_arg, int stdNumber)
-{
-	student_count++;
-
-	name = name_arg;
-	sNo = stdNumber;
-}
-
-Student::~Student()
-{
-	student_count--;
-}
 
 void Func()
 {
@@ -43,9 +10,9 @@ void Func()
 	Student::PrintStdCount();
 }
 
-int main()
+int main(void)
 {
-	Student :: PrintStdCount();
+	Student::PrintStdCount();
 
 	Student std("Jeffery", 123);
 
