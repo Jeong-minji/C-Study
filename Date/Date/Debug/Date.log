@@ -1,0 +1,4 @@
+﻿  date.cpp
+c:\users\dsm2016\c-study\date\date\date.cpp(62): error C3867: 'Date::getYear': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
+c:\users\dsm2016\c-study\date\date\date.cpp(62): error C3867: 'Date::getMonth': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
+c:\users\dsm2016\c-study\date\date\date.cpp(62): error C3867: 'Date::getDay': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
