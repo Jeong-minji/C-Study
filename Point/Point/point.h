@@ -39,5 +39,5 @@ inline void Point::SetY(COOR_T value) {
 	else if (value > MAX_Y)
 		y = MAX_Y;
 	else
-		Y = value;
+		y = value;
 }
