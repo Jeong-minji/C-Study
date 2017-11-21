@@ -1,5 +1,8 @@
 ﻿  rect.cpp
   point.cpp
+<<<<<<< HEAD
 c:\users\jcw\desktop\coding\c-study\point\point\point.cpp(1): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+=======
+>>>>>>> c7d2a6e9298c73a3a57f128e65c40edad88df829
   코드를 생성하고 있습니다...
 LINK : fatal error LNK1561: 진입점이 정의되어야 합니다.

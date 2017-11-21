@@ -1,0 +1,8 @@
+﻿  Example.cpp
+  코드를 생성하고 있습니다...
+  건너뛰고 있습니다... (관련된 변경 내용 없음)
+  rect.cpp
+Example.obj : error LNK2019: "public: int __cdecl Rect::GetWidth(void)const " (?GetWidth@Rect@@QEBAHXZ) 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+Example.obj : error LNK2019: "public: int __cdecl Rect::GetHeight(void)const " (?GetHeight@Rect@@QEBAHXZ) 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+Example.obj : error LNK2019: "public: void __cdecl Rect::Print(void)const " (?Print@Rect@@QEBAXXZ) 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+C:\Users\dsm2016\C-Study\Point\x64\Debug\Point.exe : fatal error LNK1120: 3개의 확인할 수 없는 외부 참조입니다.

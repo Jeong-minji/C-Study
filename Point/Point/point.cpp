@@ -1,4 +1,4 @@
-#include "point.h";
+#include "point.h"
 #include <iostream>
 using namespace std;
 
@@ -15,6 +15,7 @@ void Point::Offset(const Point& pt)
 
 Point::Point(const Point& pt)
 {
+	cout << "Point(const Point& pt) È£Ãâ";
 	x = pt.x;
 	y = pt.y;
 }
