@@ -66,5 +66,11 @@ int main()
 	DocWriter dw("C:\\docwriter.txt", "This is a test:DocWriter");
 	dw.Write();
 
+	DocWriter*pDW;
+	pDW = &dw;
+	pDW->Write();				// DocWriter::Write()
+	pDW = &hw;				// upcasting
+	pDW->Write();				// HTMLWriter::Write()			// <==== DocWriter::Write()
+
 	return 0;
 }
