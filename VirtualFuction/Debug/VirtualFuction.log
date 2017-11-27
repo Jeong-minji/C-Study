@@ -1,0 +1,12 @@
+﻿  Shape.cpp
+c:\users\dsm2016\c-study\virtualfuction\shape.cpp(60): error C2011: 'Shape': 'class' 형식 재정의
+  c:\users\dsm2016\c-study\virtualfuction\shape.cpp(5): note: 'Shape' 선언을 참조하십시오.
+c:\users\dsm2016\c-study\virtualfuction\shape.cpp(74): error C2079: 's'은(는) 정의되지 않은 class 'Shape'을(를) 사용합니다.
+c:\users\dsm2016\c-study\virtualfuction\shape.cpp(75): error C2228: '.Move' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+  c:\users\dsm2016\c-study\virtualfuction\shape.cpp(75): note: 'int' 형식입니다.
+c:\users\dsm2016\c-study\virtualfuction\shape.cpp(76): error C2228: '.Draw' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+  c:\users\dsm2016\c-study\virtualfuction\shape.cpp(76): note: 'int' 형식입니다.
+c:\users\dsm2016\c-study\virtualfuction\shape.cpp(79): error C2039: 'Move': 'Rectangle'의 멤버가 아닙니다.
+  c:\users\dsm2016\c-study\virtualfuction\shape.cpp(22): note: 'Rectangle' 선언을 참조하십시오.
+c:\users\dsm2016\c-study\virtualfuction\shape.cpp(84): error C2039: 'Move': 'Circle'의 멤버가 아닙니다.
+  c:\users\dsm2016\c-study\virtualfuction\shape.cpp(41): note: 'Circle' 선언을 참조하십시오.
