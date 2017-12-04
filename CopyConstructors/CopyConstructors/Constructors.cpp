@@ -19,19 +19,28 @@ public:
 		return x; 
 	}
 
+	void setX(int n) {
+		x = n;
+	}
+
 	~myclass() { 
 		cout << "¼Ò¸ê" << endl;
 	}
 };
 
 //int main(void) {
-//	myclass o1[3];
-//	myclass o2[3] = { 10, 20, 30 };
-//
-//	for (int k = 0; k < 3; k++) {
-//		cout << "o1[" << k << "] = " << o1[k].getX() << endl;
-//		cout << "o2[" << k << "] = " << o2[k].getX() << endl;
-//	}
+//	myclass *p;
+//	myclass ob(10);
+//	p = new myclass[10];
+//	if (!p) { exit(1); }
 //	
+//	for (int k = 0; k < 10; k++) {
+//		p[k] = ob;
+//	}
+//	for (int k = 0; k < 10; k++) {
+//		cout << "p[" << k << "] = " << p[k].getX() << endl;
+//		cout << endl;
+//	}
+//
 //	return 0;
 //}
