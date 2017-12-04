@@ -3,6 +3,7 @@
 #include <fstream>
 using namespace std;
 
+/* 부모 클래스인 DocWriter 구현 */
 class DocWriter
 {
 protected:
@@ -14,9 +15,10 @@ public:
 	void Write();
 };
 
-DocWriter::DocWriter(string f, string c)
-	:filename(f), content(c)
+DocWriter::DocWriter(string fileName, string content) 
+	: filename(fileName), content(content)
 {
+	cout << "DocWriter의 생성자" << endl;
 }
 
 void DocWriter::Write()
@@ -27,6 +29,8 @@ void DocWriter::Write()
 	of.close();
 }
 
+
+/* DocWriter을 상속받은 HTMLWriter 구현 */
 class HTMLWriter : public DocWriter						// 상속
 {
 private:
@@ -36,12 +40,12 @@ private:
 public:
 	HTMLWriter(string, string, int, string);					// 선언
 	void Write();
-
 };
 
 HTMLWriter::HTMLWriter(string filename, string content, int size, string color)
 	:fontSize(size), fontColor(color), DocWriter(filename, content)								// Base 생성
 {
+	cout << "HTMLWriter의 생성자" << endl;
 }
 
 void HTMLWriter::Write()

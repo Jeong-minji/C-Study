@@ -1,8 +1,10 @@
-﻿  rect.cpp
-  point.cpp
-<<<<<<< HEAD
-c:\users\jcw\desktop\coding\c-study\point\point\point.cpp(1): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
-=======
->>>>>>> c7d2a6e9298c73a3a57f128e65c40edad88df829
+﻿  point.cpp
+  Example.cpp
   코드를 생성하고 있습니다...
-LINK : fatal error LNK1561: 진입점이 정의되어야 합니다.
+Example.obj : error LNK2019: "public: __thiscall Rect::Rect(void)" (??0Rect@@QAE@XZ) 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+Example.obj : error LNK2019: "public: void __thiscall Rect::SetTopLeft(class Point const &)" (?SetTopLeft@Rect@@QAEXABVPoint@@@Z) 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+Example.obj : error LNK2019: "public: void __thiscall Rect::SetRect(int,int,int,int)" (?SetRect@Rect@@QAEXHHHH@Z) 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+Example.obj : error LNK2019: "public: int __thiscall Rect::GetWidth(void)const " (?GetWidth@Rect@@QBEHXZ) 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+Example.obj : error LNK2019: "public: int __thiscall Rect::GetHeight(void)const " (?GetHeight@Rect@@QBEHXZ) 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+Example.obj : error LNK2019: "public: void __thiscall Rect::Print(void)const " (?Print@Rect@@QBEXXZ) 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+C:\Users\JCW\Desktop\coding\C-Study\Point\Debug\Point.exe : fatal error LNK1120: 6개의 확인할 수 없는 외부 참조입니다.

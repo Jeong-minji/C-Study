@@ -1,6 +1,2 @@
 #TargetFrameworkVersion=v4.0:PlatformToolSet=v141:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0.15063.0
-<<<<<<< HEAD
 Debug|Win32|C:\Users\JCW\Desktop\coding\C-Study\Point\|
-=======
-Debug|Win32|C:\Users\dsm2016\C-Study\Point\|
->>>>>>> c7d2a6e9298c73a3a57f128e65c40edad88df829
