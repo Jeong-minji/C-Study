@@ -20,9 +20,12 @@ int main()
 
 	strcat(str1, str2);
 
+	cout << str1 << endl;
+	
+/*
 	if (strcmp(str1, "abcdefghij") == 0)
 		cout << "str1 and \"abcdefghij\" are identical.\n";
 
 	if (strcmp("123456", str1) != 0)
-		cout << "\"123456\" and str1 are NOT identical.\n";
+		cout << "\"123456\" and str1 are NOT identical.\n";*/
 }

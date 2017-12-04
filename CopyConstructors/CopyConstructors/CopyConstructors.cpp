@@ -1,42 +1,49 @@
 #include <iostream>
+#include <stdlib.h>
+
 using namespace std;
 
-//class Point
-//{
-//public:
-//	int x, y;
-//	void Print();
-//	Point();
-//	Point(int initialX, int initialY);
-//	Point(const Point& pt);
-//};
-//
-//Point::Point(const Point& pt)
-//{
-//	cout << "복사 생성자 호출됨!!\n";
-//	x = pt.x;
-//	y = pt.y;
-//}
-//
-//Point pt1(100, 100), pt2(200, 200);
+class aa {
+	int *p;
+	int size;
 
-//Point pt3 = pt1;
-//pt3.Print();
-//
-//pt3 = pt2;
-//pt3.Print();
-
-// ---------------
-
-class NeedConstructor {
 public:
-	const int maxCount;
-	int& ref;
-	int sample;
+	aa(int sz) {
+		p = new int[size];
+		if (!p) exit(1);
+		size = sz;
+		cout << "using normal constructor..." << endl;
+	}
 
-	NeedConstructor();
+	~aa() {
+		delete []p;
+	}
+
+	aa(const aa &o) {
+		p = new int[o.size];
+		if (!p) exit(1);
+		for (int i = 0; i < o.size; i++) {
+			p[i] = o.p[i];
+		}
+		cout << "using copy constructor" << endl;
+	}
+
+	void put(int i, int j) { if (i >= 0 && i < size) p[i] = j; }
+
+	int get(int i) { return p[i]; }
 };
 
-NeedConstructor::NeedConstructor() {
+int main(void) {
+	aa num(10);
+	for (int i = 0; i < 10; i++) {
+		num.put(i, i);
+	}
 
+	for (int i = 9; i >= 0; i--) {
+		cout << num.get(i) << endl;
+	}
+	
+	aa x = num;
+
+	return 0;
 }
